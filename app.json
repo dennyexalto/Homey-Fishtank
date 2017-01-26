@@ -1,0 +1,25 @@
+{
+    "id": "com.athom.rasptank",
+    "version": "1.0.0",
+    "compatibility": ">=1.2.3",
+    "name": {
+        "en": "Homey - Rasptank!",
+        "nl": "Homey - Rasptank!"
+    },
+    "description": {
+        "en": "Test app for Rasptank",
+        "nl": "Dit is een test voor de Rasptank"
+    },
+    "permissions": [
+        "homey:manager:speech-output"
+    ],
+    "speech": [
+        {
+            "id": "hello",
+            "importance": 0.6,
+            "synonyms": {
+                "en": [ "hello", "hi", "hey" ]
+            }
+        }
+    ]
+}
